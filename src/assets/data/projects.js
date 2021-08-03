@@ -1,45 +1,45 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import HappyPetsImg from '../images/happy-pet-shelter.jpg';
+import SportsAlmanacImg from '../images/sports-almanac.jpg';
+import WeatherDashboardImg from '../images/weather-dashboard.jpg';
+import CodeQuizImg from '../images/code-quiz.jpg';
+import PodcastChannelImg from '../images/podcast-channel.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Happy Pets Shelter',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'Responsive application built to match animals with their perfect new family. I was in charge of the front-end and I could do my first SVG animation for the header',
+    img: HappyPetsImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Sports Almanac',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'Application created to provide football fans with the latest information about their favorite leagues worldwide including matches data thanks to API fetching',
+    img: SportsAlmanacImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Weather Dashboard',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'Application designed to provide real-time weather information about any searched city. It can display a Five-day forecast thanks to the OpenWeather API',
+    img: WeatherDashboardImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'JavaScript Code Quiz',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'Simple application with a fun game about JavaScript fundamentals including a timer and a local storage hall of fame',
+    img: CodeQuizImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'Podcast Channel',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'Puzzle-built application with Spotify podcast content regarding coding and a responsive design',
+    img: PodcastChannelImg,
   },
 ];
 
