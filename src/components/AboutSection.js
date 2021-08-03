@@ -81,7 +81,7 @@ export default function AboutSection() {
           />
           <PText>
             I was fortunate to grow up in a home of artists. My parents taught
-            me to strive for aesthetics which has led me to develop naturally in
+            me to strive for aesthetics which has led me to grow naturally in
             development projects focused on captivating and innovative design.
           </PText>
           <div className="aboutSection__buttons">
