@@ -158,7 +158,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
-              <p>Connect</p>
+              <p>Social</p>
               <img src={SocialMediaArrow} alt="icon" />
             </div>
             <div className="hero__social__text">
@@ -180,6 +180,15 @@ export default function HeroSection() {
                     rel="noreferrer"
                   >
                     LINKEDIN
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/AdrianoArmen"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GITHUB
                   </a>
                 </li>
               </ul>
