@@ -27,7 +27,7 @@ export default function SkillsSection() {
   return (
     <SkillsItemsStyles>
       <div className="container">
-        <SectionTitle subheading="What I can do for you" heading="Skills" />
+        <SectionTitle subheading="My developing" heading="Skills" />
         <div className="skills__allItems">
           <SkillsSectionItem
             icon={<MdDesktopMac />}
