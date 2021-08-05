@@ -16,7 +16,7 @@ The following animation shows the web application's desired appearance and funct
 
 ## Project Description
 
-This professional portfolio was designed to showcase my React knowledge. I had to investigate and resolve a variety of development procedures that I was finally able to execute in my code thanks to different tools such as [Styled Components](https://styled-components.com/) and [React Router](https://reactrouter.com/web/api/Link). I tried to create as many custom elements to demonstrate my designer skills going for png images instead of the regular h1, icons, and mockup display for my previous projects. The portfolio is deployed on [Netiply](https://www.netlify.com/) to showcase another page hosting I learned developing my app.
+This professional portfolio was designed to showcase my React knowledge. I had to investigate and resolve a variety of development procedures that I was finally able to execute in my code thanks to different tools such as [Styled Components](https://styled-components.com/) and [React Router](https://reactrouter.com/web/api/Link). I tried to create as many custom elements to demonstrate my designer skills going for png images instead of the regular h1, icons, and mockup display for my previous projects. The portfolio is deployed on [Netifly](https://www.netlify.com/) to showcase another page hosting I learned developing my app.
 
 ## App Functionality
 
