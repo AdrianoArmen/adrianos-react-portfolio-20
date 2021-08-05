@@ -6,7 +6,7 @@ Homework 20 - React Portfolio
 
 - GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos-weather-dashboard-6)
 
-- Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos-weather-dashboard-6/)
+- Website Deployed on Netifly [Website Deploy link](https://determined-volhard-b649b0.netlify.app/)
 
 ## Mock-Up
 
