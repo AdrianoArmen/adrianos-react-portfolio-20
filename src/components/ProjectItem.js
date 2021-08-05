@@ -15,6 +15,16 @@ const ProjectItemStyles = styled.div`
       height: 100%;
     }
   }
+  .button {
+    font-size: 1.2rem;
+    background-color: ${(props) =>
+      props.outline ? 'transperant' : 'var(--gray-1)'};
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+  }
   .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
@@ -40,6 +50,7 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  url = 'Git Repository url',
 }) {
   return (
     <ProjectItemStyles>
@@ -52,6 +63,9 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
       </div>
+      <a href={url} className="button">
+        GitHub Repo
+      </a>
     </ProjectItemStyles>
   );
 }
