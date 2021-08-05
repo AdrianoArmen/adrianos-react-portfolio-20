@@ -16,6 +16,7 @@ const ProjectItemStyles = styled.div`
     }
   }
   .button {
+    margin: 4px;
     font-size: 1.2rem;
     background-color: ${(props) =>
       props.outline ? 'transperant' : 'var(--gray-1)'};
@@ -51,6 +52,7 @@ export default function ProjectItem({
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
   url = 'Git Repository url',
+  deploy = 'App deployment url',
 }) {
   return (
     <ProjectItemStyles>
@@ -65,6 +67,9 @@ export default function ProjectItem({
       </div>
       <a href={url} className="button">
         GitHub Repo
+      </a>
+      <a href={deploy} className="button">
+        App Deployed
       </a>
     </ProjectItemStyles>
   );
