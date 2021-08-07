@@ -65,12 +65,16 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
       </div>
-      <a href={url} className="button">
-        GitHub Repo
-      </a>
-      <a href={deploy} className="button">
-        App Deployed
-      </a>
+      <Link to={url}>
+        <button type="button" className="button">
+          GitHub Repo
+        </button>
+      </Link>
+      <Link to={deploy}>
+        <button type="button" className="button">
+          App Deployed
+        </button>
+      </Link>
     </ProjectItemStyles>
   );
 }
