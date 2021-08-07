@@ -24,6 +24,10 @@ The following animation demonstrates the actual application functionality:
 
 ![A preofessional portfolio with a dark theme showcasing my information and my list of previous projects](./readmeimg/appfunctionality.gif)
 
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ---
 
 © 2021 Adriano.
