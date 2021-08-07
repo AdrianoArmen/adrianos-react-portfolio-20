@@ -26,6 +26,10 @@ const ProjectItemStyles = styled.div`
     display: inline-block;
     color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
   }
+  .button:hover {
+    background-color: white;
+    color: 'var(--gray-1)';
+  }
   .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
@@ -65,16 +69,12 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
       </div>
-      <Link to={url}>
-        <button type="button" className="button">
-          GitHub Repo
-        </button>
-      </Link>
-      <Link to={deploy}>
-        <button type="button" className="button">
-          App Deployed
-        </button>
-      </Link>
+      <a href={url} className="button">
+        GitHub Repo
+      </a>
+      <a href={deploy} className="button">
+        App Deployed
+      </a>
     </ProjectItemStyles>
   );
 }
