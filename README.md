@@ -1,4 +1,5 @@
 # adrianos-react-portfolio-20
+![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 
 Homework 20 - React Portfolio
 
